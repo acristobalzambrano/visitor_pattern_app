@@ -8,14 +8,6 @@ import '../../domain/entities/impl/generator_pdf_impl.dart';
 
 class CustomDialog {
   static Future<void> dialogBuilder(BuildContext context, Building building) {
-    // final message = building is Bank
-    //     ? building.exportPdfForBank()
-    //     : building is Residential
-    //         ? building.exportPdfForResidential()
-    //         : building is CoffeShop
-    //             ? building.exportPdfForCoffe()
-    //             : '';
-
     VisitorBuilding visitorGenerador = GeneratorPdfImpl();
     VisitorBuilding visitorInvoce = GeneratorInvoiceImpl();
 

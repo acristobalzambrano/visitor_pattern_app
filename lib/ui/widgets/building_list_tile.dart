@@ -5,8 +5,8 @@ import 'package:visitor_pattern_app/domain/entities/residential.dart';
 
 import '../../domain/entities/bank.dart';
 
-class BuildingsListTile extends StatelessWidget {
-  const BuildingsListTile({
+class BuildingListTile extends StatelessWidget {
+  const BuildingListTile({
     super.key,
     required this.building,
     required this.onTap,
